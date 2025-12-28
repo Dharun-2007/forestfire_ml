@@ -45,7 +45,7 @@ data preprocessing → model training → model saving → model loading → web
 ---
 
 ## Deployment Ready
-- This project can be deployed on: AWS
+- This project can be deployed on cloud based platforms
 - Relative paths are used for model loading, making it platform-independent.
 
 ---
