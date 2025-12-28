@@ -28,11 +28,11 @@ data preprocessing → model training → model saving → model loading → web
 ---
 
 ##  How to Run the Project Locally
-**1️. Clone the repository**
-**2. Create and activate environment**
-**3️. Install dependencies**
-**4️. Run the application**
-**5️. Open in browser**
+- **Clone the repository**
+- **Create and activate environment**
+- **Install dependencies**
+- **Run the application**
+- **Open in browser**
 
 ---
 
