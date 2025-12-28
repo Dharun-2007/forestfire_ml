@@ -1,6 +1,6 @@
-# 🔥 Forest Fire Prediction Web Application
+#  Forest Fire Prediction Web Application
 
-## 📌 Project Overview
+##  Project Overview
 This project predicts the possibility of forest fires based on environmental parameters using a Machine Learning model.  
 The trained ML model is integrated into a Flask-based web application that allows users to input values and get real-time predictions.
 
@@ -9,7 +9,7 @@ data preprocessing → model training → model saving → model loading → web
 
 ---
 
-## 🧠 Machine Learning Details
+##  Machine Learning Details
 - **Algorithm Used:** Ridge Regression
 - **Preprocessing:** Standard Scaler
 - **Model Storage:** Pickle (`.pkl`)
@@ -17,59 +17,43 @@ data preprocessing → model training → model saving → model loading → web
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - Python
 - Flask
 - NumPy
 - Pandas
 - Scikit-learn
-- HTML / CSS
+- HTML
 
 ---
 
-forest_fire_deploy/ │── application.py │── requirements.txt │ ├── models/ │   ├── ridge.pkl │   └── scaler.pkl │ ├── templates/ │   ├── index.html │   └── home.html
-Copy code
+##  How to Run the Project Locally
+**1️. Clone the repository**
+**2. Create and activate environment**
+**3️. Install dependencies**
+**4️. Run the application**
+**5️. Open in browser**
 
 ---
 
-## 🚀 How to Run the Project Locally
+## Application Features
+- User-friendly web interface
+- Real-time prediction
+- Clean ML pipeline
+- Deployment-ready structure
 
-### 1️⃣ Clone the repository
+---
 
-git clone <your-github-repo-url>
-cd forest_fire_deploy
+## Deployment Ready
+- This project can be deployed on: AWS
+- Relative paths are used for model loading, making it platform-independent.
 
-### 2. Create and activate environment
+---
 
+##  Learning Outcomes
+- End-to-end ML project implementation
+- Flask web deployment
+- Model persistence using pickle
+- Environment and dependency management
 
-conda create -n forest_fire_env python=3.11
-conda activate forest_fire_env
-3️⃣ Install dependencies
-
-pip install -r requirements.txt
-4️⃣ Run the application
-
- ```bash python application.py ```bash
-5️⃣ Open in browser
-
-
-http://127.0.0.1:5000
-📊 Application Features
-User-friendly web interface
-Real-time prediction
-Clean ML pipeline
-Deployment-ready structure
-🌍 Deployment Ready
-This project can be deployed on:
-AWS EC2
-Render
-Railway
-Relative paths are used for model loading, making it platform-independent.
-📌 Learning Outcomes
-End-to-end ML project implementation
-Flask web deployment
-Model persistence using pickle
-Environment and dependency management
-👤 Author
-Dharun
-AIML Student
+---
