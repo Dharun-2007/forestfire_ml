@@ -59,6 +59,6 @@ data preprocessing → model training → model saving → model loading → web
 ---
 
 ## Live Demo
-[text](https://forestfire-ml.onrender.com/)
+https://forestfire-ml.onrender.com/
 
 ---
