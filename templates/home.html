@@ -1,0 +1,31 @@
+<html>
+<body>
+    <div class="login">
+        <h1>FWI Prediction</h1>
+
+        <form action="{{ url_for('predict_datapoint') }}" method="post">
+            <table>
+                <tr><td>Temperature:</td><td><input type="text" name="Temperature" placeholder="e.g. 29" required /></td></tr>
+                <tr><td>RH:</td><td><input type="text" name="RH" placeholder="e.g. 57" required /></td></tr>
+                <tr><td>Ws:</td><td><input type="text" name="Ws" placeholder="e.g. 18" required /></td></tr>
+                <tr><td>Rain:</td><td><input type="text" name="Rain" placeholder="e.g. 0.0" required /></td></tr>
+                <tr><td>FFMC:</td><td><input type="text" name="FFMC" placeholder="e.g. 65.7" required /></td></tr>
+                <tr><td>DMC:</td><td><input type="text" name="DMC" placeholder="e.g. 3.4" required /></td></tr>
+                <tr><td>DC:</td><td><input type="text" name="DC" placeholder="e.g. 7.6" required /></td></tr>
+                <tr><td>ISI:</td><td><input type="text" name="ISI" placeholder="e.g. 1.3" required /></td></tr>
+                <tr><td>BUI:</td><td><input type="text" name="BUI" placeholder="e.g. 3.4" required /></td></tr>
+                <tr><td>FWI:</td><td><input type="text" name="FWI" placeholder="e.g. 0.5" required /></td></tr>
+                <tr><td>Classes:</td><td><input type="text" name="Classes" placeholder="e.g. 0" required /></td></tr>
+                <tr><td>Region:</td><td><input type="text" name="Region" placeholder="e.g. 0" required /></td></tr>
+                <tr><td colspan="2" style="text-align:center;">
+                    <button type="submit">Predict</button>
+                </td></tr>
+            </table>
+        </form>
+
+        {% if result is defined %}
+        <h2>THE FWI prediction is {{ result }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
